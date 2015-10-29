@@ -63,4 +63,5 @@ Usage: At least two argumets must be provided to run targetGen
 * The name of class list file to be generated (such traceFile.cls)
 Example: $./targetGen traceFile.trace traceFile.cls
 Options:
-* --iteration x	  	-i x	x number as the number of iterations (default: 100)
+ 
+* <h1> --iteration x	  	-i x	x number as the number of iterations (default: 100)</h1>
