@@ -66,7 +66,7 @@ Options:
 
 <table class="" cellspacing=0 border=1>
                 <tbody>
-                    <tr style="height:20px;">
+                    <tr style="height:11px;">
                         <td style="min-width:50px">
                             <nobr>Arguments</nobr>
                         </td>
