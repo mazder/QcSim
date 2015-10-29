@@ -1,4 +1,4 @@
-# QcSim
+# TraceFileGen
 
-# Obtaining QcSim
-QcSim can be downloaded from https://github.com/mazder/QcSim
+# Obtaining TraceFileGen
+TraceFileGen can be downloaded from https://github.com/GarCoSim/TraceFileGen
