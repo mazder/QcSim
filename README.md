@@ -61,9 +61,10 @@ TraceFileGen can be downloaded from https://github.com/GarCoSim/TraceFileGen
 Usage: At least two argumets must be provided to run targetGen
 * The name of trace file to be generated ( such as traceFile.trace)
 * The name of class list file to be generated (such traceFile.cls)
-Example: $./targetGen traceFile.trace traceFile.cls
-Options:
 
+Example: $./targetGen traceFile.trace traceFile.cls
+
+<u>Options:</u>
 <table class="" cellspacing=0 border=1>
                 <tbody>
                     <tr style="height:20px;">
