@@ -234,3 +234,4 @@ Example: $./targetGen traceFile.trace traceFile.cls
                     </tr>
                 </tbody>
             </table>
+
