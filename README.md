@@ -50,5 +50,5 @@ TraceFileGen can be downloaded from https://github.com/GarCoSim/TraceFileGen
 #Installation (Initial Builing)
   
   After downloading followed by extracting or cloning, do the followings
-  * > cd TraceFileGen
-  * > ./build.sh 
+  * $ cd TraceFileGen
+  * $ ./build.sh 
