@@ -64,35 +64,185 @@ Usage: At least two argumets must be provided to run targetGen
 Example: $./targetGen traceFile.trace traceFile.cls
 Options:
 
-Arguments		Short	Description
 
-  ----------------------------------------
-  
-  --iteration x	  	-i x	x number as the number of iterations (default: 100)
-  
-  --thread x		-t x	x number as the number of threads (default: 10)
-  
-  --class x			-c x	x number as the number of classes (default: 300)
-  
-  --pointers x		-p x	x number as the maximum number of pointer fields in objects/static pointer fields in classes (default: 10)
-  
-  --primitives x	-pm x	x number as the maximum number of primitive fields in objects/static primitive fields in classes (default: 6)
-  
-  --allocation x	-a x	x percent as the allocation (default: 2)
-  
-  --storeaccess x	-s x	x percent as the store (default: 10)
-  
-  --readaccess x	-r x	x percent as the read (default: 88)
-  
-  --deleteroot x	-d x	x percent as the rootdelete (default: 10)
-  
-  --static x		-sf x	x percent as the static field access (default: 30)
-  
-  --prifaccess x	-pfa x	x percent as the primitive field access (default: 70)
-  
-  --classaccess x	-ca x	x number as the maximum used a class to create objects (default: 300)
-  
-  --escape x		-e x	x probability as the an object to be escaped (default: 20)
-  
-  --esctopartner x	-etp x	x probability as an object to be escaped to partner thread (default: 90)
-  
+<html>
+    <head>
+        <title>Excel To HTML using codebeautify.org</title>
+    </head>
+    <body>
+        <b>
+            <u>Sheet Name</u> :- Sheet1
+        </b>
+        <hr>
+            <table class="" cellspacing=0 border=1>
+                <tbody>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>Arguments</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>Short</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>Description</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --iteration x </nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-i x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x number as the number of iterations (default: 100)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --thread x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-t x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x number as the number of threads (default: 10)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --class x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-c x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x number as the number of classes (default: 300)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --pointers x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-p x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x number as the maximum number of pointer fields in objects/static pointer fields in classes (default: 10)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --primitives x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-pm x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x number as the maximum number of primitive fields in objects/static primitive fields in classes (default: 6)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --allocation x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-a x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x percent as the allocation (default: 2)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --storeaccess x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-s x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x percent as the store (default: 10)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --readaccess x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-r x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x percent as the read (default: 88)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --deleteroot x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-d x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x percent as the rootdelete (default: 10)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --static x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-sf x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x percent as the static field access (default: 30)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --prifaccess x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-pfa x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x percent as the primitive field access (default: 70)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --classaccess x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-ca x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x number as the maximum used a class to create objects (default: 300)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --escape x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-e x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x probability as the an object to be escaped (default: 20)</nobr>
+                        </td>
+                    </tr>
+                    <tr style="height:20px;">
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr> --esctopartner x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>-etp x</nobr>
+                        </td>
+                        <td style="font-family:Times New Roman;font-size:8px;color:#000000;min-width:50px">
+                            <nobr>x probability as an object to be escaped to partner thread (default: 90)</nobr>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            </body>
+        </html>
