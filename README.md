@@ -58,7 +58,7 @@ TraceFileGen can be downloaded from https://github.com/GarCoSim/TraceFileGen
   * $ make
   
 
-# Running (targetGen -- the executatble in the build folder)
+# Running (targetGen - the executatble in the build folder)
 * Usage: At least two argumets must be provided to run targetGen
 * The name of trace file to be generated ( such as traceFile.trace)
 * The name of class list file to be generated (such traceFile.cls)
