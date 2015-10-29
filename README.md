@@ -28,5 +28,29 @@ TraceFileGen can be downloaded from https://github.com/GarCoSim/TraceFileGen
       build folder which is created by the ./build.sh script 
       </td>
       </tr>
+    <tr>
+      <td>
+      <div>ObjectClasses</div>
+      </td>
+      <td>
+      C++ sources and header files 
+      </td>
+      </tr>
+    <tr>
+      <td>
+      <div>Utils</div>
+      </td>
+      <td>
+       C++ sources and header files 
+      </td>
+      </tr>
+    <tr>
+      <td>
+      <div>ObjectClasses</div>
+      </td>
+      <td>
+      build folder which is created by the ./build.sh script 
+      </td>
+      </tr>
   </tbody>
   </table>
