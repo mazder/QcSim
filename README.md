@@ -64,16 +64,7 @@ Usage: At least two argumets must be provided to run targetGen
 Example: $./targetGen traceFile.trace traceFile.cls
 Options:
 
-<html>
-    <head>
-        <title>Excel To HTML using codebeautify.org</title>
-    </head>
-    <body>
-        <b>
-            <u>Sheet Name</u> :- Sheet1
-        </b>
-        <hr>
-            <table class="" cellspacing=0 border=1>
+<table class="" cellspacing=0 border=1>
                 <tbody>
                     <tr style="height:20px;">
                         <td style="min-width:50px">
@@ -242,6 +233,3 @@ Options:
                     </tr>
                 </tbody>
             </table>
-            <hr>
-            </body>
-        </html>
