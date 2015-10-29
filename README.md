@@ -10,13 +10,5 @@ TraceFileGen can be downloaded from https://github.com/GarCoSim/TraceFileGen
 
 #Overview of the Directories Structure
   The following table lists the names of all directories and a short description.
-
-  | Tables        | Are           | Cool  |
-  
-  | ------------- |:-------------:| -----:|
-  
-  | col 3 is      | right-aligned | $1600 |
-  
-  | col 2 is      | centered      |   $12 |
-  
-  | zebra stripes | are neat      |    $1 |
+  | name | Description |
+  | ---- | ----------: |
