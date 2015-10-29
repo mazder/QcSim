@@ -11,12 +11,22 @@ TraceFileGen can be downloaded from https://github.com/GarCoSim/TraceFileGen
 #Overview of the Directories Structure
   The following table lists the names of all directories and a short description.
   <table>
-  <tbody><tr>
-  <td>
-  <div>Note</div>
-  </td>
-  <td>
-  Here is some source code.
-  </td>
-  </tr>
-  </tbody></table>
+  <tbody>
+    <tr>
+      <td>
+      <div>Name</div>
+      </td>
+      <td>
+      Description.
+      </td>
+      </tr>
+    <tr>
+      <td>
+      <div>build</div>
+      </td>
+      <td>
+      build folder which is created by the ./build.sh script 
+      </td>
+      </tr>
+  </tbody>
+  </table>
