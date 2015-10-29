@@ -8,7 +8,7 @@ TraceFileGen can be downloaded from https://github.com/GarCoSim/TraceFileGen
   * CMake is required to compile the sources. CMake can be obtained from https://cmake.org/
   * g++ (GCC) 4.4.7 or newer is required to compile the sources, visit https://gcc.gnu.org/
 
-#Overview of the Directories Structure
+# Overview of the Directories Structure
   The following table lists the names of all directories and a short description.
   <table>
   <tbody>
@@ -47,8 +47,12 @@ TraceFileGen can be downloaded from https://github.com/GarCoSim/TraceFileGen
   </tbody>
   </table>
   
-#Installation (Initial Builing)
+# Installation (Initial Builing)
   
   After downloading followed by extracting or cloning, do the followings
   * $ cd TraceFileGen
-  * $ ./build.sh 
+  * $ ./build.sh
+# Compiling (After Initial Build)
+  After intial building, do the followings
+  * $ cmake ..
+  * $ make
